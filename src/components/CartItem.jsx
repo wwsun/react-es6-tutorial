@@ -43,7 +43,7 @@ class CartItem extends React.Component {
 
   render () {
 
-    const { title, image, price } = this.props;
+    const { title='undefined', image, price='undefined' } = this.props;
 
     return (
       <aricle className="row large-4">
