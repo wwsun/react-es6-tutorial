@@ -7,10 +7,21 @@ A React tutorial with ES6 syntax
 - Node 4.x(LTS)
 - React 15.x
 
-## Startup
+## Running
 
 1. Run `npm start` to start the [dora](https://github.com/dora-js/dora) service
 2. Open the browser to visit `http://localhost:3000/demo` to check the results
+
+## Structure
+
+```bash
+- demo              // display your app
+- src
+    - components    // your app components
+    - index.jsx     // your app root
+- webpack.config.js // config your webpack
+- index.jsx         // your app export entry
+```
 
 ## Docs
 

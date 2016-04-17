@@ -2,9 +2,8 @@
   "name": "react-es6-tutorial",
   "version": "2.0.0",
   "description": "A React tutorial with ES6",
-  "main": "index.js",
   "entry": {
-    "index": "./src/index.jsx"
+    "index": "./demo/index.jsx"
   },
   "dependencies": {
     "babel-plugin-antd": "^0.3.2",
@@ -29,7 +28,7 @@
     "type": "git",
     "url": "git+https://github.com/wwsun/react-es6-tutorial.git"
   },
-  "keywords": [],
+  "keywords": ["react", "es6", "react with es6"],
   "author": "Weiwei SUN",
   "license": "MIT",
   "bugs": {

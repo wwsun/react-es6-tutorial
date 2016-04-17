@@ -1,5 +1,11 @@
-import App from './components/App.jsx';
 import React from 'react';
-import ReactDOM from 'react-dom';
+import Comp from './components/Comp.jsx';
 
-ReactDOM.render(<App />, document.getElementById('react-app'));
+// todo: finish your app here
+export default class App extends React.Component {
+  
+  render () {
+    return <Comp />
+  }
+  
+};
