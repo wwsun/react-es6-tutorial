@@ -1,5 +1,9 @@
 import React, { PropTypes } from 'react';
 
+/**
+ * Component CartItem
+ *  which used to display a cart item
+ */
 class CartItem extends React.Component {
 
   static propTypes = {
@@ -55,8 +59,8 @@ class CartItem extends React.Component {
         <p className="large-4 column"><strong>Quantity: {this.state.qty}</strong></p>
 
         <p className="large-4 column">
-          <button onClick={this._increaseQty.bind(this)} className="button success">+</button>
-          <button onClick={this._decreaseQty.bind(this)} className="button alert">-</button>
+          <button onClick={::this._increaseQty} className="button success">+</button>
+          <button onClick={::this._decreaseQty} className="button alert">-</button>
         </p>
 
         <p className="large-4 column"><strong>Price per item:</strong> ${price}</p>

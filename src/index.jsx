@@ -1,5 +1,6 @@
 import React from 'react';
-import Comp from './components/Comp.jsx';
+import CartItem from './components/CartItem.jsx';
+// import Comp from './components/Comp.jsx';
 
 // todo: finish your app here
 export default class App extends React.Component {
@@ -9,7 +10,7 @@ export default class App extends React.Component {
   }
   
   render () {
-    return <Comp {...this.props}/>
+    return <CartItem {...this.props}/>
   }
   
 };
