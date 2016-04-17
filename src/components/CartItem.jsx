@@ -3,17 +3,22 @@ import React, { PropTypes } from 'react';
 /**
  * Component CartItem
  *  which used to display a cart item
+ *
+ *  props: 由父组件传递给子组件
+ *  state: 组件自身负责管理, 凡是在运行时需要修改的数据一定是state
  */
 class CartItem extends React.Component {
 
   static propTypes = {
-    qty: PropTypes.number,
-    total: PropTypes.number
+    title: PropTypes.string,
+    image: PropTypes.string,
+    price: PropTypes.number
   };
 
   static defaultProps = {
-    qty: 0,
-    total: 0
+    title: 'undefined',
+    image: 0,
+    price: 0
   };
 
   constructor (props, context) {
@@ -47,7 +52,7 @@ class CartItem extends React.Component {
 
   render () {
 
-    const { title='undefined', image, price='undefined' } = this.props;
+    const { title, image, price } = this.props;
 
     return (
       <aricle className="row large-4">
