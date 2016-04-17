@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * This is a demo component,
+ *  which used to show what the component structure is.
+ */
 class App extends React.Component {
 
   constructor(props, context) {
@@ -7,7 +11,7 @@ class App extends React.Component {
   }
 
   render () {
-    return (<div>I am a lovely react component! {this.props.title}</div>);
+    return (<div>I am a lovely react component!</div>);
   }
 }
 
