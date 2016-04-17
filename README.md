@@ -1,15 +1,23 @@
 # react-es6-tutorial
-A React tutorial with ES6
+
+A React tutorial with ES6 syntax
 
 ## Dependencies
 
-- Babel v6
-- Node v4
-- Koa v1
-- React v0.14 (`react` and `react-dom`)
+- Node 4.x(LTS)
+- React 15.x
 
 ## Startup
 
-1. Run `npm run watch` to start the `webpack-dev-server`
-2. Run `npm start` to start the koa server
-3. Open the browser to visit `http://localhost:3000` to check the results
+1. Run `npm start` to start the [dora](https://github.com/dora-js/dora) service
+2. Open the browser to visit `http://localhost:3000/demo` to check the results
+
+## Docs
+
+1. Webpack entry:
+
+Setup the webpack compile entry by `entry.index` in the `package.json`.
+
+2. Webpack config:
+
+Setup the webpack compile options in the `webpack.config.js` under the project root.
