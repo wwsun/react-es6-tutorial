@@ -1,4 +1,4 @@
-# react-es6-tutorial
+# react-es6-tutorial [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 A React tutorial with ES6 syntax. The tutorial address:
 
@@ -14,7 +14,7 @@ A React tutorial with ES6 syntax. The tutorial address:
 
 ## Running
 
-1. Run `npm start` to start the [dora](https://github.com/dora-js/dora) service
+1. Run `npm start` to start the [seu](https://github.com/wwsun/seu) service
 2. Open the browser to visit `http://localhost:3000/demo` to check the results
 
 ## Structure
@@ -24,20 +24,19 @@ A React tutorial with ES6 syntax. The tutorial address:
 - src
     - components    // your app components
     - index.jsx     // your app root
-- webpack.config.js // config your webpack
 - index.jsx         // your app export entry
 ```
 
 ## Docs
 
-1. Webpack entry:
+1. Compile entry:
 
    Setup the webpack compile entry by `entry.index` in the `package.json`.
 
-2. Webpack config:
+2. [SEU](https://github.com/wwsun/seu) is a light weight tool set to help you create, build, watch, lint your React components.
 
-   Setup the webpack compile options in the `webpack.config.js` under the project root.
-   
+    Using `seu`, you can write `es6`, `stage-0`, `scss` by default, you also can create your own `webpack` configs.
+
 ## Read more about React.js:
 
 - Data processing:
@@ -80,3 +79,9 @@ A React tutorial with ES6 syntax. The tutorial address:
 
 1. [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/) 
 | [CN](http://insights.thoughtworkers.org/react-js-best-practices-for-2016/)
+
+
+[npm-image]: https://badge.fury.io/js/react-es6-tutorial.svg
+[npm-url]: https://npmjs.org/package/react-es6-tutorial
+[daviddm-image]: https://david-dm.org/wwsun/react-es6-tutorial.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/wwsun/react-res6-tutorial
