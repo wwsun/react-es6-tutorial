@@ -1,4 +1,4 @@
-# react-es6-tutorial [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# react-es6-tutorial [![Dependency Status][daviddm-image]][daviddm-url]
 
 A React tutorial with ES6 syntax. The tutorial address:
 
@@ -81,7 +81,5 @@ A React tutorial with ES6 syntax. The tutorial address:
 | [CN](http://insights.thoughtworkers.org/react-js-best-practices-for-2016/)
 
 
-[npm-image]: https://badge.fury.io/js/react-es6-tutorial.svg
-[npm-url]: https://npmjs.org/package/react-es6-tutorial
 [daviddm-image]: https://david-dm.org/wwsun/react-es6-tutorial.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/wwsun/react-res6-tutorial
