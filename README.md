@@ -1,6 +1,6 @@
 # react-es6-tutorial [![Dependency Status][daviddm-image]][daviddm-url]
 
-A React tutorial with ES6 syntax. The tutorial address:
+A React tutorial project writing with ES6 and stage-0 features. You can reading the series via:
 
 - [Part I: Setup the environment](http://wwsun.github.io/posts/react-with-es6-part-1.html)
 - [Part II: Props and State](http://wwsun.github.io/posts/react-with-es6-part-2.html)
@@ -9,13 +9,17 @@ A React tutorial with ES6 syntax. The tutorial address:
 
 ## Dependencies
 
-- Node 4.x(LTS)
-- React 15.x
+- node 4.x (prefer LTS)
+- npm 3.x (don't use 2.x)
+- react 15.x
+- [seu](https://github.com/wwsun/seu) 0.x (latest version)
 
 ## Running
 
-1. Run `npm start` to start the [seu](https://github.com/wwsun/seu) service
-2. Open the browser to visit `http://localhost:3000/demo` to check the results
+1. Clone or download the project
+2. In your local folder, install project dependencies via `npm install`
+3. Run `npm start` to start the [seu](https://github.com/wwsun/seu) service
+4. Open the browser to visit `http://localhost:3000/demo` to check the results
 
 ## Structure
 
@@ -25,6 +29,7 @@ A React tutorial with ES6 syntax. The tutorial address:
     - components    // your app components
     - index.jsx     // your app root
 - index.jsx         // your app export entry
+- webpack.config.js // your custome webpack configs
 ```
 
 ## Docs
@@ -35,7 +40,11 @@ A React tutorial with ES6 syntax. The tutorial address:
 
 2. [SEU](https://github.com/wwsun/seu) is a light weight tool set to help you create, build, watch, lint your React components.
 
-    Using `seu`, you can write `es6`, `stage-0`, `scss` by default, you also can create your own `webpack` configs.
+    Using `seu`, you can write react codes with `es6`, `stage-0` features by default.
+
+3. If you want to config webpack, such as adding SASS support, you should follow this [doc](http://ant-tool.github.io/webpack-config.html).
+
+    Because [atool-build](https://github.com/ant-tool/atool-build) is depended in the SEU package, therefore,
 
 ## Read more about React.js:
 
