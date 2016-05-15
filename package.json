@@ -17,7 +17,10 @@
     "eslint-plugin-import": "^1.6.1",
     "eslint-plugin-jsx-a11y": "^1.0.4",
     "eslint-plugin-react": "^5.0.1",
-    "seu": "^0.3.2"
+    "node-sass": "^3.7.0",
+    "sass-loader": "^3.2.0",
+    "seu": "^0.3.2",
+    "style-loader": "^0.13.1"
   },
   "scripts": {
     "start": "npm run dev",
