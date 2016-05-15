@@ -22,8 +22,8 @@ class CartItem extends React.Component {
     price: 0,
   };
 
-  constructor(props) {
-    super(props);
+  constructor(props, context) {
+    super(props, context);
     this.state = {
       qty: this.props.initialQty,
       total: 0,
@@ -53,22 +53,22 @@ class CartItem extends React.Component {
     const { title, image, price } = this.props;
 
     return (
-      <aricle className="row large-4">
-        <figure className="text-center">
+      <aricle>
+        <figure>
           <p><img src={image} alt="product" /></p>
           <figcaption><h2>{title}</h2></figcaption>
         </figure>
 
-        <p className="large-4 column"><strong>Quantity: {this.state.qty}</strong></p>
+        <p><strong>Quantity: {this.state.qty}</strong></p>
 
-        <p className="large-4 column">
-          <button onClick={::this.increaseQty} className="button success">+</button>
-          <button onClick={::this.decreaseQty} className="button alert">-</button>
+        <p>
+          <button onClick={::this.increaseQty} className="btn btn-primary">+</button>
+          <button onClick={::this.decreaseQty} className="btn btn-danger">-</button>
         </p>
 
-        <p className="large-4 column"><strong>Price per item:</strong> ${price}</p>
+        <p><strong>Price per item:</strong> ${price}</p>
 
-        <h3 className="large-12 column text-center">Total: ${this.state.total}</h3>
+        <h3>Total: ${this.state.total}</h3>
       </aricle>);
   }
 }

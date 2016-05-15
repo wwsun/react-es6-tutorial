@@ -2,6 +2,8 @@ import React from 'react';
 import CartItem from './components/CartItem.jsx';
 import Comp from './components/Comp.jsx';
 
+import './index.scss';
+
 // export default class App extends React.Component {
 //
 //   render() {
@@ -18,7 +20,7 @@ import Comp from './components/Comp.jsx';
 // todo: combine your components here
 const App = function App(props) {
   return (
-    <div>
+    <div className="main-content">
       <Comp />
       <CartItem {...props} />
     </div>
