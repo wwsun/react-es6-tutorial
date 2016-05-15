@@ -11,21 +11,21 @@
   },
   "devDependencies": {
     "babel-eslint": "^6.0.4",
-    "eslint": "^2.9.0",
-    "eslint-config-airbnb": "^8.0.0",
+    "eslint": "^2.10.1",
+    "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-import": "^1.6.1",
     "eslint-plugin-jsx-a11y": "^1.0.4",
     "eslint-plugin-react": "^5.0.1",
     "node-sass": "^3.7.0",
     "sass-loader": "^3.2.0",
-    "seu": "^0.3.2",
+    "seu": "^0.4.0",
     "style-loader": "^0.13.1"
   },
   "scripts": {
     "start": "npm run dev",
     "dev": "seu server",
-    "lint": "eslint --ext .jsx,.js src",
+    "lint": "seu lint",
     "precommit": "eslint `git diff HEAD --name-only --diff-filter=ACMRTU | awk '/\\.(js|jsx)$/' | awk -v path=$(git rev-parse --show-toplevel)/ '{print path$1}' ORS=' '`"
   },
   "repository": {
