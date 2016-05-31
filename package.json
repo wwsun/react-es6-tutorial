@@ -19,7 +19,7 @@
     "eslint-plugin-react": "^5.0.1",
     "node-sass": "^3.7.0",
     "sass-loader": "^3.2.0",
-    "seu": "^0.4.0",
+    "seu": "^0.6.2",
     "style-loader": "^0.13.1"
   },
   "scripts": {
